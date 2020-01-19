@@ -10,6 +10,7 @@ This repository contains some ImageMagick/GraphicsMagick examples and sample bui
 ```bat
 mkdir build
 cd build
+vcpkg install graphicsmagick --triplet x64-windows
 cmake .. -G "Visual Studio 16 2019 Win64" -DCMAKE_TOOLCHAIN_FILE="%VCPKG%\scripts\buildsystems\vcpkg.cmake"
 cmake --build .
 ```
