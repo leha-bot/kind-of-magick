@@ -1,0 +1,7 @@
+[requires]
+imagemagick/7.0.8-44@bincrafters/stable
+
+
+[generators]
+cmake
+
